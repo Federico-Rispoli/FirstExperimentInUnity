@@ -9,7 +9,7 @@ public class PlayerDeath : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Death");
         }
     }
 }
